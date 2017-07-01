@@ -6,13 +6,13 @@
   "depends" : [ ],
   "description" : "blah blah blah",
   "license" : "Artistic-2.0",
-  "name" : "SupplyMaker::IO",
+  "name" : "SupplierMaker::IO",
   "perl" : "6.c",
   "provides" : {
-    "SupplyMaker::IO" : "lib/SupplyMaker/IO.pm6"
+    "SupplierMaker::IO" : "lib/SupplierMaker/IO.pm6"
   },
   "resources" : [ ],
-  "source-url" : "",
+  "source-url" : "git://github.com/astj/p6-SupplierMaker-IO.git",
   "tags" : [ ],
   "test-depends" : [ ],
   "version" : "0.0.1"

@@ -1,20 +1,19 @@
 use v6.c;
-unit class SupplyMaker::IO:ver<0.0.1>;
-
+unit class SupplierMaker::IO:ver<0.0.1>;
 
 =begin pod
 
 =head1 NAME
 
-SupplyMaker::IO - blah blah blah
+SupplierMaker::IO - blah blah blah
 
 =head1 SYNOPSIS
 
-  use SupplyMaker::IO;
+  use SupplierMaker::IO;
 
 =head1 DESCRIPTION
 
-SupplyMaker::IO is ...
+SupplierMaker::IO is ...
 
 =head1 AUTHOR
 

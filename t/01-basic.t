@@ -1,6 +1,6 @@
 use v6.c;
 use Test;
-use SupplyMaker::IO;
+use SupplierMaker::IO;
 
 pass "replace me";
 

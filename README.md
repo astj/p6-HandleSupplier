@@ -1,17 +1,19 @@
+[![Build Status](https://travis-ci.org/astj/p6-SupplierMaker-IO.svg?branch=master)](https://travis-ci.org/astj/p6-SupplierMaker-IO)
+
 NAME
 ====
 
-SupplyMaker::IO - blah blah blah
+SupplierMaker::IO - blah blah blah
 
 SYNOPSIS
 ========
 
-    use SupplyMaker::IO;
+    use SupplierMaker::IO;
 
 DESCRIPTION
 ===========
 
-SupplyMaker::IO is ...
+SupplierMaker::IO is ...
 
 AUTHOR
 ======
