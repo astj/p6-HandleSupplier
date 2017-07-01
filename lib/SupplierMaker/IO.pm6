@@ -1,5 +1,12 @@
 use v6.c;
-unit class SupplierMaker::IO:ver<0.0.1>;
+unit module SupplierMaker::IO:ver<0.0.1>;
+
+sub supplier-for-io(IO::Handle $io --> Supplier) is export {
+    my $supplier = Supplier.new;
+    my $supply = $supplier.Supply;
+    $supply.tap(-> $v { $io.say($v) });
+    return $supplier;
+}
 
 =begin pod
 
