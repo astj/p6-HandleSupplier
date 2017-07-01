@@ -14,6 +14,8 @@
   "resources" : [ ],
   "source-url" : "git://github.com/astj/p6-SupplierMaker-IO.git",
   "tags" : [ ],
-  "test-depends" : [ ],
+  "test-depends" : [
+    "IO::Blob"
+  ],
   "version" : "0.0.1"
 }
