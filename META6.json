@@ -12,7 +12,7 @@
     "HandleSupplier" : "lib/HandleSupplier.pm6"
   },
   "resources" : [ ],
-  "source-url" : "git://github.com/astj/p6-SupplierMaker-IO.git",
+  "source-url" : "git://github.com/astj/p6-HandleSupplier.git",
   "tags" : [ ],
   "test-depends" : [
     "IO::Blob"

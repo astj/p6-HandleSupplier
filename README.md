@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/astj/p6-SupplierMaker-IO.svg?branch=master)](https://travis-ci.org/astj/p6-SupplierMaker-IO)
+[![Build Status](https://travis-ci.org/astj/p6-HandleSupplier.svg?branch=master)](https://travis-ci.org/astj/p6-HandleSupplier)
 
 NAME
 ====
