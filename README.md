@@ -3,17 +3,21 @@
 NAME
 ====
 
-SupplierMaker::IO - blah blah blah
+HandleSupplier - generate Supplier for an IO::Handle object
 
 SYNOPSIS
 ========
 
-    use SupplierMaker::IO;
+    use HandleSupplier;
+
+    my $supplier = supplier-for-handle($*ERR);
+    # "hello\n" will be written to STDERR
+    $supplier.emit("hello");
 
 DESCRIPTION
 ===========
 
-SupplierMaker::IO is ...
+HandleSupplier is a utility which provides a Supplier to emit messages to corresponding IO::Handle object.
 
 AUTHOR
 ======

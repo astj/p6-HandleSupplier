@@ -4,12 +4,12 @@
   ],
   "build-depends" : [ ],
   "depends" : [ ],
-  "description" : "blah blah blah",
+  "description" : "generate Supplier for an IO::Handle object",
   "license" : "Artistic-2.0",
-  "name" : "SupplierMaker::IO",
+  "name" : "HandleSupplier",
   "perl" : "6.c",
   "provides" : {
-    "SupplierMaker::IO" : "lib/SupplierMaker/IO.pm6"
+    "HandleSupplier" : "lib/HandleSupplier.pm6"
   },
   "resources" : [ ],
   "source-url" : "git://github.com/astj/p6-SupplierMaker-IO.git",

@@ -1,7 +1,7 @@
 use v6.c;
-unit module SupplierMaker::IO:ver<0.0.1>;
+unit module HandleSupplier:ver<0.0.1>;
 
-sub supplier-for-io(IO::Handle $io --> Supplier) is export {
+sub supplier-for-handle(IO::Handle $io --> Supplier) is export {
     my $supplier = Supplier.new;
     my $supply = $supplier.Supply;
     $supply.tap(-> $v { $io.say($v) });
@@ -12,15 +12,19 @@ sub supplier-for-io(IO::Handle $io --> Supplier) is export {
 
 =head1 NAME
 
-SupplierMaker::IO - blah blah blah
+HandleSupplier - generate Supplier for an IO::Handle object
 
 =head1 SYNOPSIS
 
-  use SupplierMaker::IO;
+  use HandleSupplier;
+
+  my $supplier = supplier-for-handle($*ERR);
+  # "hello\n" will be written to STDERR
+  $supplier.emit("hello");
 
 =head1 DESCRIPTION
 
-SupplierMaker::IO is ...
+HandleSupplier is a utility which provides a Supplier to emit messages to corresponding IO::Handle object.
 
 =head1 AUTHOR
 
