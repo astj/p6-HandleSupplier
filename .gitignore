@@ -5,4 +5,4 @@
 /resources/*.so
 /resources/*.dylib
 .precomp/
-/SupplierMaker-IO-*
+/HandleSupplier-*
